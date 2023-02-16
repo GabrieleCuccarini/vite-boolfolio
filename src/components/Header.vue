@@ -1,4 +1,6 @@
-<template></template>
+<template>
+    Header
+</template>
 
 <script>
 export default {

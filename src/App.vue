@@ -12,7 +12,7 @@ export default {
   },
   methods: {
     fetchPosts() {
-      axios.get('http://localhost:8880/api/projects')
+      axios.get('http://127.0.0.1:8000/api/projects')
       .then((resp) => {
         this.posts = resp.data;
       })
@@ -27,7 +27,7 @@ export default {
 <template>
   <Header></Header>
   <router-view></router-view>
-  <h1>{{ message }}</h1>
+  <!-- <h1>{{ message }}</h1> -->
 </template>
 
 <style lang='scss'>

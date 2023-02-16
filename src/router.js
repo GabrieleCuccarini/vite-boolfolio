@@ -7,7 +7,7 @@ import ProjectsIndex from "./pages/projects/index.vue";
 import ProjectsShow from "./pages/projects/show.vue";
 
 const router = createRouter({
-    history: createWebHistory,
+    history: createWebHistory(),
     routes: [
         {
             path: "/",
